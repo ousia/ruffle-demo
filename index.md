@@ -25,3 +25,9 @@ The following sample doesn’t use any parameter, only `SetBackgroundColor` from
 </object>
 
 <script src="./ruffle.js"></script>
+
+<script>
+window.RufflePlayer.config = {
+    "autoplay": "off"
+};
+</script>
