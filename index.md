@@ -14,7 +14,7 @@ This is a minimal demo.
     <param name="menu" value="false" />
 </object>
 
-This doesn’t use any parameter, only `SetBackgroundColor` from Flash file:
+The following sample doesn’t use any parameter, only `SetBackgroundColor` from Flash file:
 
 <object data="./006699.swf" type="application/x-shockwave-flash" width="400" height="400">
 	<param name="movie" value="./006a699.swf" />
