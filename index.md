@@ -6,28 +6,11 @@ permalink: /
 This is a minimal demo.
 
 <object data="./006699.swf" type="application/x-shockwave-flash" width="400" height="400">
-	<param name="movie" value="./006a699.swf" />
-	<param name="allowScriptAccess" value="sameDomain" />
-    <param name="quality" value="high" />
-    <param name="scale" value="noscale" />
-    <param name="bgcolor" value="006699" />
-    <param name="menu" value="false" />
-</object>
-
-The following sample doesn’t use any parameter, only `SetBackgroundColor` from Flash file:
-
-<object data="./006699.swf" type="application/x-shockwave-flash" width="400" height="400">
-	<param name="movie" value="./006a699.swf" />
-	<param name="allowScriptAccess" value="sameDomain" />
+    <param name="movie" value="./006a699.swf" />
+    <param name="allowScriptAccess" value="sameDomain" />
     <param name="quality" value="high" />
     <param name="scale" value="noscale" />
     <param name="menu" value="false" />
 </object>
 
 <script src="./ruffle.js"></script>
-
-<script>
-window.RufflePlayer.config = {
-    "autoplay": "off"
-};
-</script>
